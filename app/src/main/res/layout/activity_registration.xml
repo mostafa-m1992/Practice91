@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:id="@+id/registerationLayout"
+    android:orientation="vertical"
+    android:background="@color/personalColor1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/constantInformation"
+                android:id="@+id/infoText"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/myInformation"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dataTransfer"
+                android:id="@+id/dataTransfer"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:onClick="dataTransfer"
+                android:background="@color/teal_200"
+                android:textColor="@color/white"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@color/personalColor2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/interInfo"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="@string/textName"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:id="@+id/firstNameEdit"
+                android:ems="10"
+                android:background="@color/personalColor4"
+                android:textColor="@color/white"
+                android:textColorHint="@color/personalColor2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="@string/textFamily"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:id="@+id/lastNameEdit"
+                android:ems="10"
+                android:background="@color/personalColor4"
+                android:textColor="@color/white"
+                android:textColorHint="@color/personalColor2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="@string/textAge"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:id="@+id/ageEdit"
+                android:ems="10"
+                android:inputType="number"
+                android:background="@color/personalColor4"
+                android:textColor="@color/white"
+                android:textColorHint="@color/personalColor2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/transferOfInfo"
+                android:background="@color/teal_200"
+                android:textSize="20sp"
+                android:onClick="transferOfInfo"
+                android:layout_marginTop="30dp"
+                android:id="@+id/buttonTransferInfo"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@color/personalColor2"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

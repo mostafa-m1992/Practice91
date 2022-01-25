@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Store">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerInParent="true"
+        android:background="#DDD5D5"/>
+
+    <!--<androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/teal_200"
+        android:elevation="15dp"
+        app:titleTextColor="@color/white"
+        app:subtitle="the list of goods in my store"
+        app:subtitleTextColor="@color/purple_500"
+        app:logo="@drawable/ic_baseline_add_shopping_cart_24"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
+
+</RelativeLayout>

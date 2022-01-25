@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Messages"
+    android:orientation="vertical"
+    android:id="@+id/messageLayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduce your Friends to Us"
+                android:layout_margin="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:onClick="sendJoinMessage"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send a Message to Us"
+                android:layout_margin="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:onClick="contactMessage"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Us"
+                android:layout_margin="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:onClick="callUs"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="visit Our Website"
+                android:layout_margin="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:onClick="visitWebsite"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our map Location"
+                android:layout_margin="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:onClick="mapLocation"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

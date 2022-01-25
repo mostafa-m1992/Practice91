@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">All 91</string>
+
+    <string name="counter">COUNTER</string>
+
+    <string name="topText">number</string>
+    <string name="result">0</string>
+    <string name="plus">Do plus</string>
+    <string name="minus">Do minus</string>
+    <string name="zero">zero</string>
+    <string name="about">about developer</string>
+    <string name="website">www.android-studio.ir</string>
+
+    <string name="registration">REGISTRATION</string>
+    <string name="constantInformation">Constant Information</string>
+    <string name="dataTransfer">Data Transfer</string>
+    <string name="myInformation">Mostafa Developer 29</string>
+
+    <string name="gettingRegistration">Getting Registration</string>
+    <string name="ultimateInformation">Ultimate Information</string>
+    <string name="back">BACK</string>
+
+    <string name="interInfo">Input Your Information</string>
+    <string name="textName">your Name :</string>
+    <string name="hint">please input your info here</string>
+    <string name="textFamily">your Family :</string>
+    <string name="textAge">your Age :</string>
+    <string name="transferOfInfo">Transfer Of Information</string>
+
+    <string name="hintName">Editable input</string>
+    <string name="EditableInfo">Editable Information</string>
+
+    <string name="messages">MESSAGES</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="car">CAR</string>
+
+    <string name="information">Information</string>
+
+    <string name="store">STORE</string>
+    <string name="subtitle">The List Of Goods in My Store</string>
+</resources>

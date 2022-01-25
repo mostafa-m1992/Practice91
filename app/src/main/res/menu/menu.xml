@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="@string/counter"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="@string/registration"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="@string/messages"/>
+
+    <item
+        android:id="@+id/item4"
+        android:title="@string/car"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="@string/information"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="@string/store"/>
+
+</menu>
