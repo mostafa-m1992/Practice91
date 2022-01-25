@@ -4,7 +4,7 @@
 
 type casting Consept /
 counter	Project/
-onClick in UI	/
+onClick in layout	/
 Intent from this activity to another with two way and sending info	/
 intent for setAction in activity	/
 showing fragment in activity	/
